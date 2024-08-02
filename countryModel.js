@@ -8,6 +8,7 @@ var countryDB = {
             conn.connect(function (err) {
                 if (err) {
                     console.log(err);
+                     console.log(err);
                     conn.end();
                     return reject(err);
                 }
